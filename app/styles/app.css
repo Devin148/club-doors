@@ -1,0 +1,146 @@
+/* ----- App ----- */
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #333;
+    color: #FFF;
+    font-family: 'Roboto';
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ----- Layout ----- */
+
+.app-wrapper {
+    padding: 15px 25px;
+}
+
+.col {
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 35px 0 0;
+    padding: 0;
+}
+
+/* ----- Headings ----- */
+
+h1 {
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 100;
+    margin: 0 0 50px;
+    padding: 0;
+}
+
+h2 {
+    position: relative;
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    padding: 0;
+}
+
+h2 span {
+    display: inline-block;
+    background: #333;
+    padding-right: 15px;
+}
+
+hr {
+    position: absolute;
+    background: #FFF;
+    width: 75%;
+    height: 1px;
+    top: 3px;
+    border: none;
+    z-index: -10;
+}
+
+/* ----- Input ----- */
+
+label {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+input[type=text] {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 100;
+    text-align: right;
+    height: 30px;
+    width: 250px;
+    line-height: 30px;
+    margin-left: 15px;
+    padding: 3px 10px;
+    border: none;
+    outline: none;
+}
+
+/* ----- Buttons ----- */
+
+.button-row {
+    margin: 0 0 5px 0;
+}
+
+button {
+    display: inline-block;
+    background: #FFF;
+    color: #333;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 24px;
+    border: none;
+    outline: none;
+}
+
+button:active {
+    background: #999;
+}
+
+#quick_add button {
+    width: 100px;
+    height: 50px;
+}
+
+#choose_number button {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px 5px 0;
+}
+
+#choose_number button.double {
+    width: 110px;
+}
+
+#charges button,
+#comp button,
+#reports button {
+    width: 150px;
+    height: 100px;
+    margin: 0 15px 15px 0;
+}
