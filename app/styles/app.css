@@ -106,18 +106,22 @@ input[type=text] {
     margin: 0 0 5px 0;
 }
 
-button {
+button,
+a.button {
     display: inline-block;
     background: #FFF;
     color: #333;
     font-family: 'Roboto';
     font-weight: 100;
     font-size: 24px;
+    text-align: center;
+    text-decoration: none;
     border: none;
     outline: none;
 }
 
-button:active {
+button:active,
+a.button:active {
     background: #999;
 }
 
@@ -136,8 +140,10 @@ button:active {
     width: 110px;
 }
 
-button[type=submit] {
+button[type=submit],
+a.button {
     width: 150px;
     height: 100px;
+    line-height: 100px;
     margin: 0 15px 15px 0;
 }

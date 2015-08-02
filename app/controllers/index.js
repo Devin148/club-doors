@@ -11,6 +11,11 @@ export default Ember.Controller.extend({
 			//   - Clear state
 
 			alert('Action: Submit');
+			var receipt = this.store.createRecord('receipt', {
+				customers: 10,
+				type: 'Credit: $5'
+			});
+			receipt.save();
 		}
 	}
 });

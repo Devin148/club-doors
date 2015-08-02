@@ -41,7 +41,9 @@
             <button type="submit">$5</button>
             <button type="submit">$10</button>
             <button type="submit">$20</button>
-            <button type="submit">Credit</button>
+            <button type="submit">Credit: $5</button>
+            <button type="submit">Credit: $10</button>
+            <button type="submit">Credit: $20</button>
         </section>
 
         <section id="comp">
@@ -53,8 +55,8 @@
 
         <section id="reports">
             <h2 class="clearfix"><span>Reports:</span><hr /></h2>
-            <button type="submit">Nightly</button>
-            <button type="submit">Z</button>
+            {{#link-to 'nightly' class="button"}}Nightly{{/link-to}}
+            {{#link-to 'z' class="button"}}Z{{/link-to}}
         </section>
     </div>
 
