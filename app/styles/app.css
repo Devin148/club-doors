@@ -91,7 +91,6 @@ input[type=text] {
     font-family: 'Roboto';
     font-size: 20px;
     font-weight: 100;
-    text-align: right;
     height: 30px;
     width: 250px;
     line-height: 30px;
@@ -137,9 +136,7 @@ button:active {
     width: 110px;
 }
 
-#charges button,
-#comp button,
-#reports button {
+button[type=submit] {
     width: 150px;
     height: 100px;
     margin: 0 15px 15px 0;
